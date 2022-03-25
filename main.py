@@ -5,7 +5,7 @@ from scoreboard import Scoreboard
 from design import Design
 import time
 
-
+# Objects for the design.
 title_of_game = Design(text = "THE PONG GAME", font_size = 15, position = (0, -270))
 author = Design(text = "-- BY PROKU --", font_size = 7, position = (0, -280))
 
