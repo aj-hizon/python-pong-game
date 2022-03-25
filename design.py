@@ -2,6 +2,7 @@ from turtle import Turtle, Screen
 FONT = ("Arial", 15, "bold")
 
 class Design(Turtle):
+    """Class for putting the title and author."""
     def __init__(self, text, font_size, position):
         super().__init__()
         self.color("white")

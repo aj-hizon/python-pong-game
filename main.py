@@ -43,7 +43,7 @@ screen.onkey(r_paddle.go_down, "Down")
 screen.onkey(l_paddle.go_up, "w")
 screen.onkey(l_paddle.go_down, "s")
 
-
+# Objects for making the score for each paddle.
 r_paddle_score = Scoreboard(position = (100, 240))
 l_paddle_score = Scoreboard(position = (-100, 240))
 
