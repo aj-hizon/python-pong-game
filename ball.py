@@ -9,8 +9,8 @@ class Ball(Turtle):
         self.color("white")
         self.shapesize(stretch_len = 1, stretch_wid = 1)
         self.penup()
-        self.x_move = 0.30
-        self.y_move = 0.30
+        self.x_move = 0.70
+        self.y_move = 0.70
 
 # Method for making the ball move.
     def move(self):
